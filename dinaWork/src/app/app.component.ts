@@ -29,7 +29,7 @@ export class AppComponent {
 
   ngOnInit() {
     for (var i = 0; i < 4; i++) {
-      for (var j = 0; j < 30; j++) {
+      for (var j = 0; j < 15; j++) {
         this.personsOnRooms.unshift(Math.floor((Math.random() * 10) + 0));
       }
     }
